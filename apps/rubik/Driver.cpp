@@ -33,6 +33,8 @@
 #include <deque>
 #include <mutex>
 #include "ParallelAStarIDAStar.h"
+#include "RafeExperiment.h"
+#include "RafeExperimentPractice.h"
 
 RubiksCube c;
 RubiksAction a;
@@ -63,6 +65,8 @@ const char *pdbLocation = "/Users/nathanst/Desktop/pdb";
 int main(int argc, char* argv[])
 {
 	setvbuf(stdout, NULL, _IONBF, 0);
+	RunPracticeExperiment();
+	return 0;
 //	Test(0);
 	//PDBFaceTest();
 	//KorfAll();

@@ -57,4 +57,6 @@ endif
 default : all
 
 SRC_CPP = \
-	apps/rubik/Driver.cpp 
+	apps/rubik/Driver.cpp \
+	apps/rubik/RafeExperiment.cpp \
+	apps/rubik/RafeExperimentPractice.cpp
